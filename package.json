@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "rem": "^0.7.0-3",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.5",
+    "vue-swiper": "^0.5.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.6.0",
