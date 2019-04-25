@@ -3,15 +3,14 @@
        <ul>
           
            <li>
-              <!-- <span><img src="../assets/no.png" alt=""></span> -->
-                <i><img src="../assets/no.png" alt=""></i>
+                <i style="background:#C4C4C4"><img src="../assets/cha.png" alt=""></i>
            </li>
            <li>
-                <i><img src="../assets/super.png" alt=""></i>
+                <i  style="background:#5BB9F7"><img src="../assets/xing.png" alt=""></i>
            </li>
           
            <li>
-                <i><img src="../assets/like.png" alt=""></i>
+                <i  style="background:#C95943"><img src="../assets/xin.png" alt=""></i>
            </li>
            
        </ul>
@@ -23,6 +22,7 @@ footer {
   width: 100%;
   background: linear-gradient(to top,#fff,rgba(230, 219, 101, 0));
   position: fixed;
+  z-index: 5;
   bottom: 0rem;
   left: 0rem;
 }

@@ -195,7 +195,6 @@
     width: .603865rem;
     height: .603865rem;
     border-radius: .193237rem;
-    /* margin-top:.31401rem; */
     margin-top:.241546rem;
     background-image: url(../assets/jing.png);
     background-size:.386473rem;

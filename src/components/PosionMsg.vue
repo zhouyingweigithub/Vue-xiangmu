@@ -93,22 +93,7 @@
     border-top: .024155rem solid #ccc;
     box-sizing: border-box;
 }
-.same{
-    width: 100%;
-    height: 1.086957rem;
-    line-height: 1.086957rem;
-    padding-left: .241546rem;
-     border-top: .024155rem solid #ccc;
-     box-sizing: border-box;
-}
-/* .same span{
-    display: inline-block;
-    width: 1.207729rem;
-    height:.603865rem;
-    line-height: .603865rem;
-   text-align: center;
-   font-size: .338164rem;
-} */
+
 .r{
     margin-left: .724638rem;
     font-size: .338164rem;
