@@ -21,7 +21,7 @@
 footer {
   height: 1.449275rem;
   width: 100%;
-  /* background: #f7f7f7; */
+  background: linear-gradient(to top,#fff,rgba(230, 219, 101, 0));
   position: fixed;
   bottom: 0rem;
   left: 0rem;

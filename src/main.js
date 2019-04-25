@@ -4,9 +4,10 @@ import App from './App.vue'
 import rem from './rem.js'
 // 引入路由对象
 import router from './router.js'
-// 引入Mui
-// import './lib/mui/dist/js/mui.min.js'
-// import './assets/js/mui.js'
+// 引入weui
+import 'weui'
+
+
 
 
 Vue.config.productionTip = false

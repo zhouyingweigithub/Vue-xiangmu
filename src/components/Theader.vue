@@ -8,13 +8,13 @@
         </div>
         <!-- 右图标 -->
         <div v-if="showMes" class="rightIcon" @click="toRightSideBar"></div>
-        <div v-if="showPen" class="rightIcon1" @click="toRightSideBar"></div>
-        <div v-if="showBig" class="rightIcon2" @click="toRightSideBar"></div>
+        <div v-if="showPen" class="rightIcon1" @click="toChangeEdit"></div>
+        <div v-if="showBig" class="rightIcon2" @click="toSearch"></div>
         <div v-if="showHelp" class="rightIcon3" @click="toRightSideBar"></div>
         <div v-if="showMore" class="rightIcon4" @click="toRightSideBar"></div>
     </header>
 </template>
-<style scope>
+<style scoped>
 header {
   height: 1.466667rem;
   width: 100%;
@@ -43,7 +43,8 @@ header {
 .rightIcon,
 .rightIcon1,
 .rightIcon2,
-.rightIcon3,.rightIcon4 {
+.rightIcon3,
+.rightIcon4 {
   background-image: url(../assets/mes.png);
   background-repeat: no-repeat;
   background-size: 0.64rem;
@@ -66,7 +67,7 @@ header {
 <script>
 export default {
   // 父组件决定子组件，显示什么图标
-  props: ["showMes", "showPen", "showBig", "showHelp","showMore"],
+  props: ["showMes", "showPen", "showBig", "showHelp", "showMore"],
 
   methods: {
     toLeftSideBar() {
@@ -74,6 +75,12 @@ export default {
     },
     toRightSideBar() {
       this.$router.push({ name: "rightSideBar" });
+    },
+    toSearch() {
+      this.$router.push({ name: "search" });
+    },
+    toChangeEdit() {
+      this.$router.push({ name: "changeEdit" });
     }
   }
 };

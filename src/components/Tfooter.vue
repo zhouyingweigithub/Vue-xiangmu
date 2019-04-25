@@ -1,5 +1,6 @@
 <template>
    <footer>
+     <!-- 底部icon -->
        <ul>
            <li>
                <i><p><img src="../assets/recall.png" alt=""></p></i>
@@ -19,7 +20,7 @@
        </ul>
    </footer>
 </template>
-<style scoped>
+<style scoped lang="scss">
 footer {
   height: 4rem;
   width: 100%;
@@ -93,8 +94,6 @@ footer ul li i p:hover{
 </style>
 <script>
 export default {
-    methods: {
-    }
-    
-}
+  methods: {}
+};
 </script>

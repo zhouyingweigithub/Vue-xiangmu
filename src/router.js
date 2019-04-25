@@ -13,6 +13,11 @@ import Detail from './pages/Detail.vue'
 import LeftSideBar from './pages/LeftSideBar.vue'
 // 右侧滑屏
 import RightSideBar from './pages/RightSideBar.vue'
+// 搜索页面
+import Search from './pages/Search.vue'
+// 编辑个人信息页面
+import ChangeEdit from './pages/ChangeEdit.vue'
+
 // 登陆
 import Log1 from './pages/Log1.vue'
 // 注册1
@@ -45,13 +50,15 @@ const routes = [
         { path: 'message', component:Message, name: 'message', },
         { path: 'share', component: Share, name: 'share', },
         { path: 'edit', component: Edit, name: 'edit', },
-
     ]
 
  },
     { path: '/detail', component: Detail, name: 'detail' },
     { path: '/leftSideBar', component: LeftSideBar, name: 'leftSideBar' },
     { path: '/rightSideBar', component: RightSideBar, name: 'rightSideBar' },
+    { path: '/Search', component: Search, name: 'search' },
+    { path: '/changeEdit', component: ChangeEdit, name: 'changeEdit' },
+
     { path: '/log1', component: Log1, name: 'log1' },
     { path: '/reg1', component: Reg1, name: 'reg1' },
     { path: '/reg2', component: Reg2, name: 'reg2' },

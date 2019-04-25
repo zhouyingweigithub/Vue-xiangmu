@@ -1,7 +1,8 @@
 <template>
-    <main @click="toDetail"></main>
+    <main @click="toDetail">
+    </main>
 </template>
-<style>
+<style scoped>
 main{
     height:12.32rem;
     width: 100%;

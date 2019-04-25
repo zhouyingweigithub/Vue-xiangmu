@@ -1,6 +1,5 @@
 <template>
 <div>
-    <PosionMsg>
         <img src="../assets/c1.jpg" alt="" id="img"> 
         <h2 class="uname" v-text="uname"></h2>
          <div style=" padding-left: 10px;">
@@ -35,7 +34,6 @@
             <span>美食</span>
             <span class="same1" style="background:#ff7f00;" v-text="eate"></span>
         </div>
-    </PosionMsg>
     <DetailFooter />
     </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div>
-      <Theader :showMes="true" :showPen="flase" :showBig="flase" :showHelp="flase" :showMore="flase">设置</Theader>
+      <Theader :showMes="true">设置</Theader>
 
   </div>
 </template>

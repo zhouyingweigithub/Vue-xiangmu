@@ -1,18 +1,20 @@
 <template>
   <div>
-      <Theader :showMes="flase" :showPen="true" :showBig="flase" :showHelp="flase" :showMore="flase">个人资料</Theader>
-
+      <Theader :showPen="true">个人资料</Theader>
+      <Administrator />
   </div>
 </template>
 
 <script>
 // 引入头部组件
 import Theader from "../../components/Theader.vue";
+import Administrator from "../../components/Administrator.vue";
 
 export default {
     name: "app",
   components: {
     Theader,
+    Administrator,
   }
 
 };
